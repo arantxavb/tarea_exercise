@@ -11,7 +11,6 @@ let student2Courses = ['Geography', 'Spanish', 'Programming', 'Math'];
 
 const commonCourses = [];
 for (let course1 of student1Courses ){
-    console.log( course1 ); 
     for(let course2 of student2Courses ){
         if( course1 === course2) commonCourses.push( course1 ); //push almacena en un nuevo arreglo el dato si se cumple la condicion
     }

@@ -14,19 +14,16 @@ const duplicarEdad = ( currentValue, index, array )=>{
 }
 const ages = [1, 2, 4, 10, 15] ;
 const dobleAges = ages.map(  duplicarEdad );
+console.log(dobleAges)
 
 //////////////////////sintetizada/////////////////////////
 
 let simpleArray = [4, 8, 12, 24, 32];
 //const doubleArray = simpleArray.map((x)=> x*2);
-
-const doubleArray = simpleArray.map((x)=> x*2);
-
+const doubleArray = simpleArray.map((edad)=> edad*2);
 console.log(doubleArray);
 
-
-
-
+///////////////// Ciclo for ////////////////////////
 
 // [1, 2, 4, 10, 15] 
 const duplicarValor = ( array ) => {
